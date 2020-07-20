@@ -1,0 +1,41 @@
+li{
+    padding-top: 10px;
+}
+
+section{
+    margin-top: 10%;
+    background: linear-gradient(#000000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+
+}
+
+input{
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 0 15px;
+
+
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    border: #707070;
+    border-radius: 25px;
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    width: 100px;
+
+}

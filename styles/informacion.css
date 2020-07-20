@@ -1,0 +1,38 @@
+
+
+.imagen_seccion{
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.imagen{
+    width: 425px;
+    height: 425px;
+    border-radius: 30px;
+}
+
+.desc{
+    float: right;
+    margin-top: -350px;
+    margin-right: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+button{
+    background-color: rgb(5, 2, 161);
+    border: #363636;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 40px;
+    width: 100px;
+    letter-spacing: 0px;
+    margin: 20px 0;
+    margin-top: 100px;
+    float: left;
+
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/verificar.css">
+</head>
+<body>
+    <header>
+        <a class="logo_a" href="/src/index.html">
+            <img class="logo" src="https://www.neoesfera.com/wp-content/uploads/2018/05/logo-gato.png" alt="owo">
+        </a>
+        <div class="menu">
+            <div>
+                
+            </div>
+            
+        </div>
+
+        <a class="logo_b" href="/src/cliente.html">
+            <img class="logo2" src="https://image.flaticon.com/icons/png/512/17/17115.png" alt="owo">
+        </a>
+    </header>
+
+    <section class="verificar_s">
+        <form class="verificar_s--form" action="">
+            <ol class="verificar_s--form_list">
+                <li>Pedido 1</li>
+                <p>Descipcion del pedido - dd/mm/aa</p>
+                <form name="name" class="datos" id="datos" action="">
+                    <select class="estado_select" type="select" id="cursos" onchange="getComboA(this)">   
+                        <option value="">Seleccione uno</option>
+                        <option id="aprobado" value="1">Aprobar</option>
+                        <option id="rechazado" value="2">Rechazar</option>
+                        <option id="modificar" value="3">Modificar</option>
+                        
+                    </select>
+                </form>
+                <input id="estado1" type="text" value="El estado es: No definido">
+            </ol>
+        </form>
+        
+    </section>
+
+    
+
+    <footer class="footer">
+        <a class="a1">Página realizada por: Rafaela Valencia</a>
+        <a class="a2">Acerca de</a>
+        
+    </footer>
+
+    <script type="text/javascript">
+        let estado=false
+        let product=""
+        function getComboA(selectObject) {
+            var value = selectObject.value;
+            if(value==1){
+                alert("El producto ha sido aprobado, se envia a despachar")
+                estado=true
+                product="despachado"
+                document.getElementById("estado1").value = "El estado es: Por despachar";
+            }
+            else if(value==2){
+                alert("El producto ha sido rechazado")
+                estado=false
+                document.getElementById("estado1").value = "El estado es: Rechazado";
+            }else if(value==3){
+                alert("El producto debe de ser revisado y modificado")
+                document.getElementById("estado1").value = "El estado es: Debe de modificarse";
+            }
+            
+        }
+    </script>
+
+</body>
+</html>
