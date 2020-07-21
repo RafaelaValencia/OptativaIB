@@ -77,3 +77,24 @@ footer{
   
     
   }
+
+  @media only screen and (max-width: 600px){
+    .contenedor{
+        background-color: transparent;
+        border-color: transparent;
+        width: 0px;
+        margin-top: -100px;
+    }
+
+    input{
+        width: 100px;
+    }
+
+    .button{
+        margin-top: 400px;
+        background-color: rgb(206, 206, 206);
+        height: 100px;
+        
+    }
+    
+}

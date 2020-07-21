@@ -1,3 +1,8 @@
+body{
+    background-color: #87dfd6;
+    margin: 0px;
+}
+
 .verificar_s{
     background: linear-gradient(#000000);
     display: flex;
@@ -57,4 +62,23 @@ input{
     margin: 10px 0;
     width: 300px;
     text-decoration: none;
+}
+
+footer{
+    position: absolute;
+        bottom: 0;
+        width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .verificar_s--form{
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }

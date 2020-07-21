@@ -63,3 +63,10 @@ footer{
   
     
   }
+
+  @media only screen and (max-width: 600px){
+    .pago_contenedor{
+        background-color: transparent;
+        border-color: transparent;
+    }
+}

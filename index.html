@@ -8,21 +8,32 @@
 </head>
 <body>
     <header>
-        <a class="logo_a" href="/src/index.html">
+        <a class="logo_a" href="index.html">
             <img class="logo" src="https://www.neoesfera.com/wp-content/uploads/2018/05/logo-gato.png" alt="owo">
         </a>
-        <div class="menu">
-            <div>
-                <a href="/src/login.html">Inicio de sesión</a>
-                <a class="a_registro" href="/src/registro.html">Registro</a>
-                <a class="a_invitado" href="/src/main.html">Entrar como invitado</a>
-                <!-- Opción solo de desarrollo -->
-                <a class="a_admin" href="/src/admin.html">Entrar como administrador</a>
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <p>Usuario</p>
             </div>
-            
+            <ul class="ul_menu">
+                <li><a class="a_login" href="login.html">Inicio de sesión</a></li>
+                <li><a class="a_registro" href="registro.html">Registro</a></li>
+                <li><a class="a_invitado" href="main.html">Entrar como invitado</a></li>
+                <!-- Opción solo de desarrollo -->
+                <li><a class="a_admin" href="admin.html">Entrar como administrador</a></li>
+            </ul>
         </div>
     </header>
 
+    <div class="menu">
+        <div class="header__menu">
+            <ul>
+                
+            </ul>
+                
+        </div>
+        
+    </div>
     <section class="login">
         <section class="login_contenedor">
             <section>
@@ -54,7 +65,7 @@
     </section>
     <footer class="footer">
         <a class="a1">Página realizada por: Rafaela Valencia</a>
-        <a class="a2">Acerca de</a>
+        <a href="/acercade.html" class="a2">Acerca de</a>
         
     </footer>
 </body>

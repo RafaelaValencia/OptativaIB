@@ -62,8 +62,10 @@ footer{
     animation-duration: 1s;
   }
   @media only screen and (max-width: 600px){
-    
+    .wrap{
+      margin-left: -45px;
+    }
     .menor{
-      margin-left: 80px;
+      margin-left: 20px;
     }
 }
